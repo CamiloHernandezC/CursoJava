@@ -1,5 +1,20 @@
 # CursoJava
 
+## Encapsulamiento:
+
+Es como si una clase fuera una caja negra para proteger el estado (atributos) de una clase y también ocultar la implementación de los métodos
+
+## Herencia (todas las fichas de ajedrez heredan de la superclase Ficha)
+
+## POLIMORFISMO: usar una variable o instancia con su supertipo(padre);
+
+## Instancia (Peon, Torre)
+
+## Enum
+
+
+OVERLOAD usar métodos que se llaman igual distinguiendo por parámetros
+
 
 Getters:
   Obtener un atributo
@@ -62,9 +77,7 @@ Overload
 
 Objetos
 
-##Encapsulamiento:
 
-Es como si una clase fuera una caja negra
 
 
 
@@ -78,8 +91,7 @@ CASTEO: Transformar de un tipo en otro
 
 PRIMITIVAS: int, double, float, char, byte, boolean, short, long
 
-POLIMORFISMO: usar una variable con su supertipo;
-OVERLOAD usar métodos que se llaman igual distinguiendo por parámetros
+
 
 	
 
@@ -144,8 +156,7 @@ ALTA COHESION
 	
 	numero: int (entero), double(fraccionarios), float(fraccionarios)
 	
-	Instancia (Chiguagua, Golden)
-	Herencia (ambos perros son de clase perro)
+	
 	
 	Eficiencia:
 		String (texto) "hola" "1"
