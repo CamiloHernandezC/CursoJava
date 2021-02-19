@@ -12,6 +12,6 @@ public abstract class Ficha {
 		return color;
 	}
 
-	public abstract void mover();
+	public abstract boolean puedoMover(int filaActual, int columnaActual, int filaDestino, int columnaDestino);
 
 }
