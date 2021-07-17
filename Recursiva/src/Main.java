@@ -5,6 +5,8 @@ public class Main {
 		// TODO Auto-generated method stub
 		Recursiva recursiva = new Recursiva();
 		System.out.println(recursiva.sumatoria(6));
+		
+		System.out.println("hello");
 	}
 
 }
