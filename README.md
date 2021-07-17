@@ -1,6 +1,4 @@
 # CursoJava
-![image](https://user-images.githubusercontent.com/17090457/126040910-18e3e651-ffa7-4e73-8703-dd8c9f2f6cb0.png)
-
 
 ## Encapsulamiento:
 
