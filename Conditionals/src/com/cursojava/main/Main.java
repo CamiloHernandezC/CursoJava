@@ -2,11 +2,51 @@ package com.cursojava.main;
 
 public class Main {
 	
-	private static int temperatura = -1;
+	
 
 	public static void main(String[] args) {
 		
-		// Si la temperatura es mayor que 25
+		/*Syntaxis
+		 * OBLIGATORIO
+			if (<condicion que debe ser o dar como resultado un boolean>) {
+				<bloque de código>
+			}
+		 *OPCIONAL
+		 	else{
+		 		<otro bloque de código>
+		 	}
+		
+		*/
+	
+		// If sin else
+		/*
+		System.out.println("inicio");
+		
+		boolean mostrarMensaje = true;
+		
+		if(mostrarMensaje) {
+			System.out.println("Cumplió la condicion");
+		}
+		
+		System.out.println("final");
+		*/
+		
+		//If con else
+		/*
+		System.out.println("inicio");
+		
+		if(5 > 10) {
+			System.out.println("Cumplió la condicion");
+		}else {
+			System.out.println("NO Cumplió la condicion");
+		}
+		
+		System.out.println("final");
+		*/
+			
+		//EJERCICIO
+		int temperatura = -1;
+		
 		if (temperatura < 25) {
 		    System.out.println("Hace calor!!!");
 		}else {
@@ -46,28 +86,6 @@ public class Main {
 		    System.out.println("Mejor me quedo en casa");
 		}
 */
-	}
-	
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + temperatura;
-		return result;
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Main other = (Main) obj;
-		if (temperatura != other.temperatura)
-			return false;
-		return true;
 	}
 
 }
