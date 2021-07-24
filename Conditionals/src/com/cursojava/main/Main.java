@@ -5,7 +5,7 @@ public class Main {
 	
 
 	public static void main(String[] args) {
-		
+
 		/*Syntaxis
 		 * OBLIGATORIO
 			if (<condicion que debe ser o dar como resultado un boolean>) {
@@ -17,10 +17,10 @@ public class Main {
 		 	}
 		
 		*/
-	
 		// If sin else
 		/*
-		System.out.println("inicio");
+		System.
+		out.println("inicio");
 		
 		boolean mostrarMensaje = true;
 		
@@ -45,23 +45,19 @@ public class Main {
 		*/
 			
 		//EJERCICIO
+		
 		int temperatura = -1;
 		
-		if (temperatura < 25) {
+		if (temperatura > 25) {
 		    System.out.println("Hace calor!!!");
 		}else {
 			if(temperatura < 0) {
 				System.out.println("Hace mucho frio");
 			}else {
-				System.err.println("Está templado");
+				System.out.println("Está templado");
 			}
 		}
-			        
-		
-		
-		
-		
-		
+		System.out.println("final");
 		
 		/*
 		
