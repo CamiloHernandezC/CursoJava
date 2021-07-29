@@ -3,8 +3,9 @@ package com.cursojava.main;
 public class Main {
 	
 	
-
 	public static void main(String[] args) {
+		
+		
 
 		/*Syntaxis
 		 * OBLIGATORIO
@@ -45,6 +46,7 @@ public class Main {
 		*/
 			
 		//EJERCICIO
+		/*
 		
 		int temperatura = -1;
 		
@@ -81,7 +83,28 @@ public class Main {
 		if ((temperatura < 0 || temperatura > 30) && haceSol) {
 		    System.out.println("Mejor me quedo en casa");
 		}
-*/
+		
+		if(mujer) {
+			if(edad > 57) {
+				if(semanasCotizadas > 1200) {
+					System.out.println("se puede pensionar");
+				}else {
+					System.out.println("no se puede pensionar");
+				}
+			}else {
+				System.out.println("no se puede pensionar");
+			}
+		}else {//significa que es hombre
+			if(edad > 62) {
+				if(semanasCotizadas > 1200) {
+					System.out.println("se puede pensionar");
+				}else {
+					System.out.println("no se puede pensionar");
+				}
+			}else {
+				System.out.println("no se puede pensionar");
+			}
+		}*/
 	}
 
 }
