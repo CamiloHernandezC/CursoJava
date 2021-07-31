@@ -4,16 +4,21 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Animal gato = new Animal();		
-		gato.peso = 10;
-		gato.felicidad = 100;//va de 0 a 100, 0 es triste; 100 es feliz.
-		gato.salud = 100;//va de 0 a 100, 0 muerto, 100 muy saludable.
-		gato.hambre = 0;//va de 0 a 100, 0 es sin hambre y 100 es famelico.
-		gato.sueno = 0; //va de 0 a 100, 0 es muy despierto y 100 es muy somnoliento
+		Animal cat = new Animal();		
+		cat.weight = 10;
+		cat.happiness = 100;//va de 0 a 100, 0 es triste; 100 es feliz.
+		cat.health = 100;//va de 0 a 100, 0 muerto, 100 muy saludable.
+		cat.hungry = 0;//va de 0 a 100, 0 es sin hambre y 100 es famelico.
+		cat.sleep = 0; //va de 0 a 100, 0 es muy despierto y 100 es muy somnoliento
 
 		
-		System.out.println("hambre gatico: " + gato.hambre);
+		Veterinary veterinary = new Veterinary();
+		Medicine m = veterinary.prescribeMedicine(cat);
+		System.out.println("la medicina que me recetan es: " + m.name);
 		
+		System.out.println("hambre gatico: " + cat.hungry);
+		System.out.println(Math.floor((100 - 50)/10));
+		System.out.println(Math.ceil(5.25));
 
 	}
 
