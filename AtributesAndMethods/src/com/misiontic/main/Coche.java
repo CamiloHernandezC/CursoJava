@@ -37,11 +37,10 @@ public class Coche {
 	}
 
 	public void setColor(String color) {
-		switch (color) {
-		case "azul":case "amarillo": case "rojo":{
+		if(color.equalsIgnoreCase("azul") || color.equalsIgnoreCase("amarillo") || color.equalsIgnoreCase("rojo")) {
 			this.color = color;
 		}
-		default:
+		else {
 			System.out.println("ESO NO ES UN COLOR VALIDO");
 		}
 	}
