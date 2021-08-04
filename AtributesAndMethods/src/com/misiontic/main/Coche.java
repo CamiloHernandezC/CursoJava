@@ -12,6 +12,22 @@ public class Coche {
 	private Piloto piloto;
 	
 		
+	public Coche(String marca, String modelo, String color, String matricula, double precio, double descuento, Piloto piloto) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.color = color;
+		this.matricula = matricula;
+		this.precio = precio;
+		this.descuento = descuento;
+		this.piloto = piloto;
+	}
+	
+	public Coche(String marca, String modelo, String color, String matricula, double precio, Piloto piloto) {
+		this(marca,modelo,color,matricula,precio,0,piloto);
+		
+	}
+
 	public double getDescuento() {
 		return descuento;
 	}

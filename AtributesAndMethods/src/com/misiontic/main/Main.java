@@ -5,15 +5,17 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//EJEMPLO 1
-		Coche coche = new Coche();
-		coche.setMarca("Seat");
-		coche.setModelo ("Leon");
-		coche.setColor("azul");
-		coche.setMatricula("1234BBB");
-		coche.setPrecio(10000);
 		
-		System.out.println(coche.getDescuento());
+		Piloto piloto = new Piloto("Montoya",35);
 		
+		Coche coche  = new Coche("Seat","Leon","azul","1234BBB",10000,1000, piloto);
+		Coche coche2 = new Coche("Renault","Clio","Rojo","ABC123",10000, piloto);
+		
+		//coche.setPiloto(piloto);
+		
+		System.out.println(coche.getPiloto().getName());
+		
+		/*
 		Coche coche2 = new Coche();
 		coche2.setMarca("Ferrari");
 		coche2.setModelo("Enzo");
@@ -21,16 +23,9 @@ public class Main {
 		coche2.setMatricula("5555JJK");
 		coche2.setPrecio(55000);
 		
-		Piloto piloto = new Piloto();
-		piloto.setName("Montoya");
-		piloto.setAge(35);
-		coche.setPiloto(piloto);
-		
-		System.out.println(coche.getPiloto().getName());
-		
 		//double precioRespuesta = digameCualEsElPrecio(coche);
 		//Piloto pilotoResultado = digameCualEsElPiloto(coche10000);
-		
+		*/
 	}
 	/*
 	public static double digameCualEsElPrecio(Coche miCosito) {
