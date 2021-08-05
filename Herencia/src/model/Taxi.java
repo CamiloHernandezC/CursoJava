@@ -1,6 +1,6 @@
 package model;
 
-public class Taxi extends Vehiculo{
+public class Taxi extends VehiculoPublico{
 	
 	public Taxi() {
 		super();

@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Vehiculo{
+public class Vehiculo {
 
 	//Atributos
 	private String placa;
@@ -8,7 +8,9 @@ public abstract class Vehiculo{
 	private int puestos;
 	private int ocupantes;
 	
-	
+	public int getOcupantes() {
+		return ocupantes;
+	}
 	//Getters-Setters (metodos)
 	public int getPuestos() {
 		return puestos;
@@ -29,9 +31,6 @@ public abstract class Vehiculo{
 		this.potenciaMotor = potenciaMotor;
 	}
 	
-	
-	public abstract void cobrar();
-
 	public boolean estaLleno() {
 		return puestos == ocupantes;
 	}

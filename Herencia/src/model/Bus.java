@@ -1,8 +1,8 @@
 package model;
 
-public class Bus extends Vehiculo{
+public class Bus extends VehiculoPublico{
 
-	private int tarifa = 2000;
+	private int tarifa;
 	
 	@Override
 	public void cobrar() {
@@ -10,8 +10,9 @@ public class Bus extends Vehiculo{
 		
 	}
 	
-	public Bus() {
+	public Bus(int tarifa) {
 		super();
+		this.tarifa = tarifa;
 		setPuestos(20);
 	}
 

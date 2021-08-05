@@ -1,15 +1,16 @@
 package model;
 
 public class Transmilenio extends Bus{
-	public Transmilenio() {
-		super();
+	
+	public Transmilenio(String placa) {
+		super(2500);
 		setPuestos(50);
+		setPlaca(placa);
 	}
 	
 	@Override
 	public boolean estaLleno() {
-		return super.estaLleno();
-		
-		//hago lo demas
+		return getOcupantes() == getPuestos() * 3;
 	}
+	
 }

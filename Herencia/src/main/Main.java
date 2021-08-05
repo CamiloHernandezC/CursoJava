@@ -1,14 +1,25 @@
 package main;
 
+import geometria.*;
 import model.Taxi;
+import model.Transmilenio;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Taxi miTaxito = new Taxi();
+		/*
+		Circulo c = new Circulo();
+		c.area();
 		
-		miTaxito.setPlaca("HAT647");
-		miTaxito.estaLleno();
+		Triangulo t = new Triangulo();
+		t.area();
+		
+		Rectangulo r = new Rectangulo();
+		r.area();
+		*/
+		Cuadrado cua = new Cuadrado();
+		cua.area();
+		cua.tipo();
 
 	}
 
