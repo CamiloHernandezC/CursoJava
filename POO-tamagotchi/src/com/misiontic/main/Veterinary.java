@@ -12,12 +12,12 @@ public class Veterinary {
 	}
 	
 	public Medicine prescribeMedicine(Animal pet) {
-		int triage = (100 - pet.health) 
-				+ (100 - pet.sleep)/10 
-				+ (100 - pet.hungry)/10;
+		int triage = (100 - pet.getHealth()) 
+				+ (100 - pet.getSleep())/10 
+				+ (100 - pet.getHungry())/10;
 		
 		return medicines.stream()
-				.filter(x -> x.healing > triage)
+				.filter(x -> x.getHealing() > triage)
 				.sorted()
 				.findFirst()
 				.get();

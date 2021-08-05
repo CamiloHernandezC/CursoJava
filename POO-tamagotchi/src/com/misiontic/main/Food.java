@@ -1,5 +1,14 @@
 package com.misiontic.main;
 
 public class Food {
-	public int calories;
+	private final int calories;
+
+	public Food(int calories) {
+		super();
+		this.calories = calories;
+	}
+
+	public int getCalories() {
+		return calories;
+	}
 }
